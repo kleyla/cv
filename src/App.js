@@ -8,6 +8,9 @@ import LanguagesCode from "./components/LanguagesCode";
 import Technologies from "./components/Technologies";
 import Methodologies from "./components/Methodologies";
 import Languages from "./components/Languages";
+import Education from "./components/Education";
+import Courses from "./components/Courses";
+import Works from "./components/Works";
 
 function App() {
   return (
@@ -37,7 +40,20 @@ function App() {
             <Languages />
           </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="box">
+            <Subtitle text="education" />
+            <Education />
+          </div>
+          <div className="box">
+            <Subtitle text="online courses" />
+            <Courses />
+          </div>
+          <div className="box">
+            <Subtitle text="work experience" />
+            <Works />
+          </div>
+        </div>
       </main>
     </div>
   );

@@ -104,3 +104,58 @@ header {
   width: 80%;
   margin-left: 15%;
 }
+/* Right */
+.right {
+  width: 65%;
+  padding-right: 30px;
+}
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr td {
+  border-bottom: 1px solid #ccc;
+  padding: 6px;
+}
+table tr td:nth-child(1) {
+  width: 20%;
+}
+.date-place {
+  font-size: 12px;
+}
+.course {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.course-link {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.course-link:hover {
+  cursor: pointer;
+  color: rgb(65, 65, 65);
+  text-decoration: underline;
+}
+.by {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.inline {
+  display: inline;
+}
+.instructor {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #696969;
+  font-size: 16px;
+}
+.link {
+  color: #000;
+  text-decoration: none;
+}
