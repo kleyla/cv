@@ -159,3 +159,47 @@ table tr td:nth-child(1) {
   color: #000;
   text-decoration: none;
 }
+/* responsive */
+@media screen and (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+  .name {
+    font-size: 1.5em;
+  }
+  table {
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 720px) {
+  header {
+    height: 200px;
+  }
+  .image-profile {
+    width: 150px;
+  }
+  .name {
+    font-size: 1em;
+  }
+  main {
+    flex-direction: column;
+  }
+  .contact-box {
+    width: 100%;
+    margin: 0;
+  }
+  .left {
+    width: 92%;
+    padding: 0 4%;
+  }
+  .right {
+    width: 92%;
+    padding: 0 4%;
+  }
+  table {
+    width: 100%;
+  }
+  table tr td:nth-child(2) {
+    width: 80%;
+  }
+}

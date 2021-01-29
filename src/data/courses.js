@@ -106,13 +106,22 @@ export const courses = [
       "https://www.udemy.com/certificate/UC-2d4ca52c-03b8-496d-a4b2-58cf25fac47f/",
   },
   {
-    year: 2020,
+    year: 2021,
     country: "Online",
     name: "English grammar tenses & structures, the ultimate course",
     institution: "Udemy",
     instructor: "Ustazy English Grammar Experts",
     link:
       "https://www.udemy.com/certificate/UC-02ebf633-23ee-4686-9713-bbc9de39a56e/",
+  },
+  {
+    year: 2021,
+    country: "Online",
+    name: "Vue JS: Learning the basics",
+    institution: "Udemy",
+    instructor: "Dino Numic",
+    link:
+      "https://www.udemy.com/certificate/UC-b551bfbe-6e1b-498f-bef5-5909c14cc408/",
   },
   //   {
   //     year: 2020,
