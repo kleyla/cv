@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import ContactBox from "./components/ContactBox";
+import Subtitle from "./components/shared/Subtitle";
+import Objective from "./components/Objective";
+import LanguagesCode from "./components/LanguagesCode";
+import Technologies from "./components/Technologies";
+import Methodologies from "./components/Methodologies";
+import Languages from "./components/Languages";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header />
+      <main>
+        <div className="left">
+          <ContactBox />
+          <div className="box">
+            <Subtitle text="Objetivos" />
+            <Objective />
+          </div>
+          <div className="box">
+            <Subtitle text="languages (code)" />
+            <LanguagesCode />
+          </div>
+          <div className="box">
+            <Subtitle text="technologies" />
+            <Technologies />
+          </div>
+          <div className="box">
+            <Subtitle text="methodologies" />
+            <Methodologies />
+          </div>
+          <div className="box">
+            <Subtitle text="languages" />
+            <Languages />
+          </div>
+        </div>
+        <div className="right"></div>
+      </main>
     </div>
   );
 }

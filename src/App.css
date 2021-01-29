@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/* APP */
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.left {
+  width: 35%;
+  padding: 0 30px;
+}
+.box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* HEADER */
+header {
+  width: 100%;
+  height: 250px;
+  background-color: #fbceb1;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.image-profile {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.image-profile img {
+  width: 100%;
+  border-radius: 50%;
+}
+.name {
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-size: 1.8em;
+  line-height: 2em;
+}
+.name .names {
+  font-weight: 500;
+}
+/* Contact Box */
+.contact-box {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 15px;
+}
+.contact-line {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  display: inline;
+  width: 25px;
+  margin-right: 10px;
+}
+.contact-box .contact-line {
+  align-items: center;
+  margin-bottom: 15px;
+}
+.contact-box .contact-line p {
+  display: inline;
+}
+.contact-box .contact-line a {
+  color: #000;
+  text-decoration: none;
+}
+.contact-box .contact-line a:hover {
+  text-decoration: underline;
+}
+/* Subtitle */
+.line {
+  display: block;
+  /* width: 100%; */
+  border-bottom: 2px solid #000;
+  margin-bottom: 10px;
+}
+.paragraph {
+  text-align: justify;
+}
+.subtitle-text {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Languages */
+.two-columns {
+  width: 80%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.two-columns ul {
+  width: 50%;
+}
+.one-column {
+  width: 80%;
+  margin-left: 15%;
 }
