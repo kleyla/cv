@@ -123,8 +123,17 @@ export const courses = [
     link:
       "https://www.udemy.com/certificate/UC-b551bfbe-6e1b-498f-bef5-5909c14cc408/",
   },
+  {
+    year: 2021,
+    country: "Online",
+    name: "Front End Web Development: Complete Guide",
+    institution: "Udemy",
+    instructor: "Fatah Gabrial",
+    link:
+      "https://www.udemy.com/certificate/UC-fd4e5a05-51ee-471d-b0ee-e611ee799183/",
+  },
   //   {
-  //     year: 2020,
+  //     year: 2021,
   //     country: "Online",
   //     name: "",
   //     institution: "",
