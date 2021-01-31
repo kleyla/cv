@@ -6,12 +6,12 @@ const LanguagesCode = () => {
     <div className="two-columns">
       <ul>
         {firstColumn.map((item, index) => {
-          return <li>{item.name}</li>;
+          return <li key={index}>{item.name}</li>;
         })}
       </ul>
       <ul>
-        {secondColumn.map((item, indes) => {
-          return <li>{item.name}</li>;
+        {secondColumn.map((item, index) => {
+          return <li key={index}>{item.name}</li>;
         })}
       </ul>
     </div>

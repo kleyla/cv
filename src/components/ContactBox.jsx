@@ -6,12 +6,15 @@ const ContactBox = () => {
     <div className="contact-box">
       {contactList.map((item, index) => {
         return (
-          <div className="contact-line">
+          <div className="contact-line" key={index}>
             <img
               className="icon"
+              alt="icon"
               src={`${process.env.PUBLIC_URL}/assets/images/${item.icon}`}
             />
-            <a href={item.link} target="blank">{item.text}</a>
+            <a href={item.link} target="blank">
+              {item.text}
+            </a>
           </div>
         );
       })}

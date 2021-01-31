@@ -6,7 +6,7 @@ const Methodologies = () => {
     <div className="one-column">
       <ul>
         {methodologies.map((item, index) => {
-          return <li>{item.name}</li>;
+          return <li key={index}>{item.name}</li>;
         })}
       </ul>
     </div>
