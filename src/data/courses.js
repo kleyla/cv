@@ -132,7 +132,16 @@ export const courses = [
     link:
       "https://www.udemy.com/certificate/UC-fd4e5a05-51ee-471d-b0ee-e611ee799183/",
   },
-  //   {
+  {
+    year: 2021,
+    country: "Online",
+    name: "Design patterns and SOLID principles in Java",
+    institution: "Udemy",
+    instructor: "Domingo Sebastian, Jane Leitch",
+    link:
+      "https://www.udemy.com/certificate/UC-fe6ba330-0bc6-4f7e-b02e-0a91e19c3e14/",
+  },
+  // {
   //     year: 2021,
   //     country: "Online",
   //     name: "",
